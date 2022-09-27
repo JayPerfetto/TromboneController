@@ -13,7 +13,7 @@ Microcontroller code for a custom trombone USB controller to be used with Trombo
   c) Assemble trombone from PVC components following the guide in /diagrams
   
 3) Install the required library for your Board, the Keyboard library, and the AbsMouse library (https://github.com/jonathanedgecombe/absmouse)
-4) Calibrate the program for your display size in the setup() function by changing the resolution in AbsMouse.init(x, y)
+4) Calibrate the program for your display size in the setup() function by changing the resolution in AbsMouse.init(x, y) (optional - default is set to 1920x1080)
 5) Upload the TromboneController sketch to your compatible microcontroller board.
 
 
