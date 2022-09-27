@@ -1,10 +1,15 @@
 # TromboneController
 Microcontroller code for a custom trombone USB controller to be used with Trombone Champ on Steam
 
-## Instructions for use
+## Instructions
 
 1) Download and install the Arduino IDE from: https://www.arduino.cc/en/software
-2) Complete the included circuitry diagram to build the microcontroller, Ultrasonic distance detector, and button.
+
+2) Complete the included circuitry diagram to build the microcontroller, Ultrasonic distance detector, and button. Pics / Diagrams in /diagrams
+  a) Button - https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+  b) Ultrasonic Sensor - https://create.arduino.cc/projecthub/abdularbi17/ultrasonic-sensor-hc-sr04-with-arduino-tutorial-327ff6
+  c) Assemble trombone from PVC components following the guide in /diagrams
+  
 3) Install the required library for your Board, the Keyboard library, and the AbsMouse library (https://github.com/jonathanedgecombe/absmouse)
 4) Calibrate the program for your display size in the setup() function by changing the resolution in AbsMouse.init(x, y)
 5) Upload the TromboneController sketch to your compatible microcontroller board.
